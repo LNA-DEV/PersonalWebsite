@@ -1,11 +1,95 @@
-div{
-    background-color: rgb(130, 187, 25);
-    color: rgb(230, 10, 175);
+.container{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    background: #30C7BD;
 }
-.heading{
-    color: blue;
+
+html, body{
+    height: 100%;
+    width: 100%;
 }
-body{
-    background-color: rgb(109, 12, 88);
+
+.menu ul{
+    display: inline-flex;
+    margin: 40px;
+}
+
+.menu li{
+    display: inline-flex;
+    margin: 5px;
+}
+
+.active{
+    top: 70;
+    right: 80px;
+    text-decoration: none;
+    color: #471675;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(#00bdba,#aa23b1),radial-gradient(circle at top left,#2b5a57,#3d8658);
+    background-origin: border-box;
+    background-clip: content-box;}
+
+.btn{
+    top: 70;
+    right: 80px;
+    text-decoration: none;
+    color: #471675;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(#00FFFB,#E630F0),radial-gradient(circle at top left,#499994,#70FAA3);
+    background-origin: border-box;
+    background-clip: content-box;
+}
+
+.btn span{
+    display: block;
+    padding: 8px 22px;
+}
+
+.active span{
+    display: block;
+    padding: 8px 22px;
+}
+
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 20%;
+    left: 100px;
+    position: absolute;
     color: white;
+}
+
+.app-text{
+    width: 50%;
+    float: left;
+}
+
+.app-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 0px;
+}
+
+.app-text p{
+    width: 650px;
+    font-size: 16px;
+    margin-left: 25px;
+    line-height: 25px;
+    color: #eeeeee;
+}
+
+.app-picture{
+    width: 50%;
+    float: right;
+}
+
+.app-picture img{
+    width: 70%;
+    float: right;
+    margin-top: -10%;
+    margin-right: -50px;
 }
