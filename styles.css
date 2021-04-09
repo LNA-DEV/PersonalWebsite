@@ -3,14 +3,12 @@
     padding: 0;
 }
 
-
-.container{
+body{
     min-width: 100%;
     min-height: 100%;
     margin: 0%;
     background: #30C7BD;
     background-size: 100% 100%;
-    position: fixed;
 }
 
 html, body{
@@ -84,9 +82,9 @@ html, body{
 
 .app-text p{
     width: 100%;
-    font-size: 16px;
-    margin-left: 25px;
-    line-height: 25px;
+    font-size: 150%;
+    margin-left: 10%;
+    line-height: 100%;
     color: #eeeeee;
 }
 
