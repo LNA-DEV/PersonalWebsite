@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     width: 100%;
     height: 100%;
@@ -21,8 +26,8 @@ html, body{
 }
 
 .active{
-    top: 70;
-    right: 80px;
+    top: 1%;
+    right: 90%;
     text-decoration: none;
     color: #471675;
     border: 2px solid transparent;
@@ -32,8 +37,8 @@ html, body{
     background-clip: content-box;}
 
 .btn{
-    top: 70;
-    right: 80px;
+    top: 1%;
+    right: 90%;
     text-decoration: none;
     color: #471675;
     border: 2px solid transparent;
@@ -57,7 +62,7 @@ html, body{
     width: 80%;
     height: 70%;
     top: 20%;
-    left: 100px;
+    left: 5%;
     position: absolute;
     color: white;
 }
@@ -90,6 +95,10 @@ html, body{
 .app-picture img{
     width: 70%;
     float: right;
-    margin-top: -10%;
-    margin-right: -50px;
+    margin-top: 0%;
+    margin-right: -10%;
+}
+
+hr{
+    color: rgb(61, 61, 61);
 }
