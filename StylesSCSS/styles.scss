@@ -85,7 +85,7 @@ input{
 }
 
 .banner{
-    top: 150px;
+    top: 300px;
     position: relative;
 
     @media only screen and (min-width: 1220px) {
@@ -107,10 +107,22 @@ input{
     }
 }
 
+.galleryHeader{
+    top: 450px;
+    position: relative;    
+}
+
+@media only screen and (min-width: 1220px) {
+    .galleryHeader{
+        top: 490px;
+        position: relative;
+    }
+}
+
 .gallery{
     display: grid;
     grid-template-columns: auto auto auto;
-    top: 200px;
+    top: 500px;
     position: relative;
 
         .galleryItem{
