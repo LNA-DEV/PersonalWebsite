@@ -85,7 +85,7 @@ input{
 }
 
 .banner{
-    top: 300px;
+    margin-top: 20%;
     position: relative;
 
     @media only screen and (min-width: 1220px) {
@@ -114,7 +114,7 @@ input{
 
 @media only screen and (min-width: 1220px) {
     .galleryHeader{
-        top: 490px;
+        margin-top: 8%;
         position: relative;
     }
 }
@@ -174,7 +174,7 @@ input{
 
 .bottom{
     position: relative;
-    top: 400px;
+    margin-top: 50%;
 
         .email{
             margin-top: 30px;
@@ -232,45 +232,4 @@ input{
                     width: 100px;
                 }
         }
-}
-
-.address{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-row-gap: 0px;
-    grid-column-gap: 10px;
-
-        .addressChild{
-            margin-left: 30px;   
-            margin-bottom: 70px;
-
-                .addressH{
-                    color: black;
-                    font-size: 120%;
-                }
-                
-                .addressP{
-                    color: gray;
-                    font-size: 100%;
-                }
-        }
-}
-
-@media only screen and (max-width: 1220px){
-    .address{
-        display: grid;
-        grid-template-columns: auto;
-
-            .addressChild{    
-                    .addressH{
-                        color: black;
-                        font-size: 220%;
-                    }
-                    
-                    .addressP{
-                        color: gray;
-                        font-size: 200%;
-                    }
-            }
-    }
 }
