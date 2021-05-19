@@ -45,47 +45,8 @@ input{
      border: 1px solid #000000;
 }
 //------------------------------------------------
-@media only screen and (min-width: 1220px){
-    .topBar{
-        display: grid;
-        grid-template-columns: auto auto auto;            
-            .topBarP{
-                float: left;
-                font-size: 120%;
-                margin-top: 8px;
-
-                    .dropdown-content {
-                        display: none;
-                        position: absolute;
-                        background-color: #f1f1f1;
-                        min-width: 160px;
-                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                        z-index: 1;
-
-                        a {
-                            color: black;
-                            padding: 12px 16px;
-                            text-decoration: none;
-                            display: block;
-                        }
-
-                        &.dropdown-contentE{
-                            display: block;
-                            position: absolute;
-                            background-color: #f1f1f1;
-                            min-width: 160px;
-                            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                            z-index: 1;
-                        }
-                    }
-
-                
-            }
-    }
-}
-
 .banner{
-    margin-top: 20%;
+    margin-top: 22%;
     position: relative;
 
     @media only screen and (min-width: 1220px) {
@@ -109,7 +70,7 @@ input{
     .smallButton{
         background-color: transparent;
         border-color: transparent;
-        margin-top: 18%;
+        margin-top: 16%;
         display: block;
         margin-left: auto;
         margin-right: auto;

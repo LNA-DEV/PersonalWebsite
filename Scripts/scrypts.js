@@ -5,7 +5,7 @@ function ScrollToTop()
 
 function ScrollToMiddle()
 {
-    window.scrollTo({top: 1700, behavior: 'smooth'});
+    window.scrollTo({top: 1630, behavior: 'smooth'});
 }
 
 function ScrollToBottom()
