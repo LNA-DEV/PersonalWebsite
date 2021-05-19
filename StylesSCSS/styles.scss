@@ -105,16 +105,40 @@ input{
         text-align: center;
         color: gray;
     }
+
+    .smallButton{
+        background-color: transparent;
+        border-color: transparent;
+        margin-top: 18%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        img{
+            width: 5%;
+        }
+    }
+}
+
+.smallButtonMiddleUp{
+    background-color: transparent;
+    border-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    img{
+        width: 5%;
+    }
 }
 
 .galleryHeader{
-    top: 450px;
+    top: 5%;
     position: relative;    
 }
 
 @media only screen and (min-width: 1220px) {
     .galleryHeader{
-        margin-top: 8%;
+        margin-top: 5%;
         position: relative;
     }
 }
@@ -122,7 +146,7 @@ input{
 .gallery{
     display: grid;
     grid-template-columns: auto auto auto;
-    top: 500px;
+    top: 20%;
     position: relative;
 
         .galleryItem{
@@ -158,6 +182,18 @@ input{
     }
   }
 
+  .smallButtonMiddleDown{
+    background-color: transparent;
+    border-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    img{
+        width: 5%;
+    }
+}
+
 .midSiteBanner{
     position: relative;
     top: 300px;
@@ -174,7 +210,19 @@ input{
 
 .bottom{
     position: relative;
-    margin-top: 50%;
+    margin-top: 20%;
+
+        .smallButtonUp{
+            background-color: transparent;
+            border-color: transparent;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 13%;
+            img{
+                width: 5%;
+            }
+        }
 
         .email{
             margin-top: 30px;
