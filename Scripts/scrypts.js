@@ -3,6 +3,16 @@ function ScrollToTop()
     window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
+function ScrollToMiddle()
+{
+    window.scrollTo({top: 1630, behavior: 'smooth'});
+}
+
+function ScrollToBottom()
+{
+    window.scrollTo({top: 999999 , behavior: 'smooth'});
+}
+
 window.onload=function(){
     SetText();
 }

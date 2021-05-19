@@ -9,26 +9,16 @@
 </head>
 
 <body>
-    <div class="topBar">
-        <div class="topBarP">
-            <p class="topBarP" onclick="alert('ist Products');">My projects</p>
-            <p class="DropDown" onclick="DropDown();">▼</p>
-            <div id="myDropdown" class="dropdown-content">
-                <a href="#">This Website</a>
-                <a href="#">SaveGame-Hub</a>
-            </div>
-        </div>
-        <div class="topBarP">
-            <p class="topBarP">Legal Details</p>
-        </div>
-    </div>
     <div class="banner">
         <h1>About</h1>
         <p class="bannerP">
             Hello World!<br>
             I am Lukas Nagel a Software-Developer from Bavaria Germany.
         </p>
+        <button class="smallButton" onclick="ScrollToMiddle()"><img src="../Assets/arrow-small-down.png"></button>
     </div>
+    <button class="smallButtonMiddleUp" onclick="ScrollToTop()"><img src="../Assets/arrow-small-up.png"></button>
+    <h1 class="galleryHeader">My projects</h1>
     <div class="gallery">
         <div class="galleryItem">
             <img class="galleryItem" src="../Assets\1.jpg">
@@ -40,17 +30,32 @@
             <p class="galleryItemH">SaveGame-Hub</p>
             <p class="galleryItem">It's a little tool to copy your SaveGames to a save folder of your choice.<br> For example you can store all your SaveGames in one central folder in your cloud.</p>
         </div>
+        <div class="galleryItem">
+            <img class="galleryItem" src="../Assets\1.jpg">
+            <p class="galleryItemH">Lorem ipsumt</p>
+            <p class="galleryItem">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Itaque sed, minima nisi, adipisci, iste odio ratione laborum vitae dicta<br> quam perspiciatis necessitatibus non veritatis id atque dignissimos quidem modi veniam!</p>
+        </div>
+        <div class="galleryItem">
+            <img class="galleryItem" src="../Assets\1.jpg">
+            <p class="galleryItemH">This Website</p>
+            <p class="galleryItem">My personal website which is mainly used for showcasing my projects</p>
+        </div>
+        <div class="galleryItem">
+            <img class="galleryItem" src="../Assets\1.jpg">
+            <p class="galleryItemH">This Website</p>
+            <p class="galleryItem">My personal website which is mainly used for showcasing my projects</p>
+        </div>        <div class="galleryItem">
+            <img class="galleryItem" src="../Assets\1.jpg">
+            <p class="galleryItemH">This Website</p>
+            <p class="galleryItem">My personal website which is mainly used for showcasing my projects</p>
+        </div>
     </div>
-    <div class="midSiteBanner">
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br> sed diam nonumy eirmod tempor invidunt ut labore
-            et dolore magna aliquyam erat,<br> sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-            rebum.</p>
-        <button type="button">Click Me!</button>
-    </div>
+    <button class="smallButtonMiddleDown" onclick="ScrollToBottom()"><img src="../Assets/arrow-small-down.png"></button>
 
     <div class="bottom">
+        <button class="smallButtonUp" onclick="ScrollToMiddle()"><img src="../Assets/arrow-small-up.png"></button>
         <p class="bottomP">Get started</p>
-        <h1>Get in Touch with Us</h1>
+        <h1>Get in Touch with me</h1>
         <form action="site2.html">
             <textarea name="message" id="Message" placeholder="Your Message"></textarea>
             <div class="email">

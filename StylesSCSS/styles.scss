@@ -45,47 +45,8 @@ input{
      border: 1px solid #000000;
 }
 //------------------------------------------------
-@media only screen and (min-width: 1220px){
-    .topBar{
-        display: grid;
-        grid-template-columns: auto auto auto;            
-            .topBarP{
-                float: left;
-                font-size: 120%;
-                margin-top: 8px;
-
-                    .dropdown-content {
-                        display: none;
-                        position: absolute;
-                        background-color: #f1f1f1;
-                        min-width: 160px;
-                        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                        z-index: 1;
-
-                        a {
-                            color: black;
-                            padding: 12px 16px;
-                            text-decoration: none;
-                            display: block;
-                        }
-
-                        &.dropdown-contentE{
-                            display: block;
-                            position: absolute;
-                            background-color: #f1f1f1;
-                            min-width: 160px;
-                            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-                            z-index: 1;
-                        }
-                    }
-
-                
-            }
-    }
-}
-
 .banner{
-    top: 150px;
+    margin-top: 22%;
     position: relative;
 
     @media only screen and (min-width: 1220px) {
@@ -105,12 +66,48 @@ input{
         text-align: center;
         color: gray;
     }
+
+    .smallButton{
+        background-color: transparent;
+        border-color: transparent;
+        margin-top: 16%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        img{
+            width: 5%;
+        }
+    }
+}
+
+.smallButtonMiddleUp{
+    background-color: transparent;
+    border-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    img{
+        width: 5%;
+    }
+}
+
+.galleryHeader{
+    top: 5%;
+    position: relative;    
+}
+
+@media only screen and (min-width: 1220px) {
+    .galleryHeader{
+        margin-top: 5%;
+        position: relative;
+    }
 }
 
 .gallery{
     display: grid;
     grid-template-columns: auto auto auto;
-    top: 200px;
+    top: 20%;
     position: relative;
 
         .galleryItem{
@@ -146,6 +143,18 @@ input{
     }
   }
 
+  .smallButtonMiddleDown{
+    background-color: transparent;
+    border-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    img{
+        width: 5%;
+    }
+}
+
 .midSiteBanner{
     position: relative;
     top: 300px;
@@ -162,7 +171,19 @@ input{
 
 .bottom{
     position: relative;
-    top: 400px;
+    margin-top: 20%;
+
+        .smallButtonUp{
+            background-color: transparent;
+            border-color: transparent;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 13%;
+            img{
+                width: 5%;
+            }
+        }
 
         .email{
             margin-top: 30px;
@@ -204,13 +225,13 @@ input{
         }
 
         .buttonUp{
-            margin-top: 100px;
+            margin-top: 1%;
             color: transparent;
             border: 0px solid black;
             border-radius: 0px;
             background-color: transparent;
             background-image: none;
-            margin-bottom: 20px;
+            margin-bottom: 15%;
             width: 100px;
             display: block;
             margin-left: auto;
@@ -220,45 +241,4 @@ input{
                     width: 100px;
                 }
         }
-}
-
-.address{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-row-gap: 0px;
-    grid-column-gap: 10px;
-
-        .addressChild{
-            margin-left: 30px;   
-            margin-bottom: 70px;
-
-                .addressH{
-                    color: black;
-                    font-size: 120%;
-                }
-                
-                .addressP{
-                    color: gray;
-                    font-size: 100%;
-                }
-        }
-}
-
-@media only screen and (max-width: 1220px){
-    .address{
-        display: grid;
-        grid-template-columns: auto;
-
-            .addressChild{    
-                    .addressH{
-                        color: black;
-                        font-size: 220%;
-                    }
-                    
-                    .addressP{
-                        color: gray;
-                        font-size: 200%;
-                    }
-            }
-    }
 }
