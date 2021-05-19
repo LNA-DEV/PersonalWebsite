@@ -1,0 +1,244 @@
+p{
+    font-size: 100%;
+    font-family: MS UI Gothic;
+    text-align: center;
+}
+
+h1{
+    font-size: 200%;
+    font-family: MS UI Gothic;
+    text-align: center;
+}
+
+button{
+    color: white;
+    background-color: rgb(34, 98, 34);
+    border-radius: 20px;
+    font-size: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+textarea{
+    width: 30%;
+	height: 120px;
+	font-family: MS UI Gothic;
+    font-size: 100%;
+    resize: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+input{
+	height: 65%;
+	font-family: MS UI Gothic;
+    font-size: 100%;
+    resize: none;
+    display: block;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+     border-radius: 10px;
+     border: 1px solid #000000;
+}
+//------------------------------------------------
+.banner{
+    margin-top: 22%;
+    position: relative;
+
+    @media only screen and (min-width: 1220px) {
+        .bannerP{
+            font-size: 150%;
+            text-align: center;
+            color: gray;
+            max-width: 40%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .bannerP{
+        font-size: 150%;
+        text-align: center;
+        color: gray;
+    }
+
+    .smallButton{
+        background-color: transparent;
+        border-color: transparent;
+        margin-top: 16%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        img{
+            width: 5%;
+        }
+    }
+}
+
+.smallButtonMiddleUp{
+    background-color: transparent;
+    border-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    img{
+        width: 5%;
+    }
+}
+
+.galleryHeader{
+    top: 5%;
+    position: relative;    
+}
+
+@media only screen and (min-width: 1220px) {
+    .galleryHeader{
+        margin-top: 5%;
+        position: relative;
+    }
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    top: 20%;
+    position: relative;
+
+        .galleryItem{
+            border-radius: 8%;
+            text-align: center;
+            color: gray;
+
+                .galleryItemH{
+                    color: black;
+                    font-size: 170%;
+                }
+        }
+}
+
+@media only screen and (max-width: 1220px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: auto ;
+        top: 200px;
+        position: relative;
+        width: 100%;
+    
+            .galleryItem{
+                border-radius: 8%;
+                text-align: center;
+                color: gray;
+    
+                    .galleryItemH{
+                        color: black;
+                        font-size: 170%;
+                    }
+            }
+    }
+  }
+
+  .smallButtonMiddleDown{
+    background-color: transparent;
+    border-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    img{
+        width: 5%;
+    }
+}
+
+.midSiteBanner{
+    position: relative;
+    top: 300px;
+    text-align: center;
+    font-size: 350%;
+    border-style:solid;
+    border-radius: 10px;
+    width: 82%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.bottom{
+    position: relative;
+    margin-top: 20%;
+
+        .smallButtonUp{
+            background-color: transparent;
+            border-color: transparent;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 13%;
+            img{
+                width: 5%;
+            }
+        }
+
+        .email{
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 60% 5%;
+
+            input{
+                margin-left: 58%;
+            }
+        }
+
+        @media only screen and (max-width: 1220px) {
+            textarea{
+                font-size: 300%;
+                width: 100%;
+                height: 300px;
+                margin: 0%;         
+                box-sizing: border-box;   
+            }
+
+            .email{
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: auto;
+    
+                input{
+                    font-size: 300%;
+                    width: 100%;
+                    height: 100%;
+                    margin: 0%;
+                    box-sizing: border-box;   
+                }
+
+                button{
+                    font-size: 300%;
+                    margin-top: 3%;
+                }
+            }
+        }
+
+        .buttonUp{
+            margin-top: 1%;
+            color: transparent;
+            border: 0px solid black;
+            border-radius: 0px;
+            background-color: transparent;
+            background-image: none;
+            margin-bottom: 15%;
+            width: 100px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+
+                .buttonI{
+                    width: 100px;
+                }
+        }
+}
