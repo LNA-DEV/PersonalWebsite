@@ -45,13 +45,20 @@ input{
      border: 1px solid #000000;
 }
 //------------------------------------------------
+
 .banner{
-    margin-top: 22%;
+    margin-top: 70%;
     position: relative;
 
-    @media only screen and (min-width: 1220px) {
+    h1{
+        font-size: 400%;
+        font-family: MS UI Gothic;
+        text-align: center;
+    }
+
+
         .bannerP{
-            font-size: 150%;
+            font-size: 300%;
             text-align: center;
             color: gray;
             max-width: 40%;
@@ -59,13 +66,7 @@ input{
             margin-left: auto;
             margin-right: auto;
         }
-    }
-
-    .bannerP{
-        font-size: 150%;
-        text-align: center;
-        color: gray;
-    }
+    
 
     .smallButton{
         background-color: transparent;
@@ -80,15 +81,72 @@ input{
     }
 }
 
+@media only screen and (min-width: 1220px) {
+    .banner{
+        margin-top: 22%;
+        position: relative;
+
+        h1{
+            font-size: 200%;
+            font-family: MS UI Gothic;
+            text-align: center;
+        }        
+
+        .bannerP{
+            font-size: 300%;
+            text-align: center;
+            color: gray;
+        }
+
+            .bannerP{
+                font-size: 150%;
+                text-align: center;
+                color: gray;
+                max-width: 40%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        
+
+        .smallButton{
+            background-color: transparent;
+            border-color: transparent;
+            margin-top: 16%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            img{
+                width: 5%;
+            }
+        }
+    }
+}
+
 .smallButtonMiddleUp{
     background-color: transparent;
     border-color: transparent;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%;
+    margin-top: 50%;
     img{
         width: 5%;
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+
+    .smallButtonMiddleUp{
+        background-color: transparent;
+        border-color: transparent;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+        img{
+            width: 5%;
+        }
     }
 }
 
