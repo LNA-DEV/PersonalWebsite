@@ -12,7 +12,7 @@ h1{
 
 button{
     color: white;
-    background-color: rgb(34, 98, 34);
+    background-color: rgb(16, 101, 180);
     border-radius: 20px;
     font-size: 100%;
     padding: 10px;
@@ -277,17 +277,11 @@ input{
             button{
                 font-size: 300%;
                 margin-top: 3%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
             }
 
-            .email{
-                margin-top: 30px;
-                display: grid;
-                grid-template-columns: 60% 5%;
-
-                input{
-                    margin-left: 58%;
-                }
-            }
         }
 
         .buttonUp{
@@ -328,18 +322,16 @@ input{
             }
         }
 
-            .email{
-                margin-top: 30px;
-                display: grid;
-                grid-template-columns: 60% 5%;
-
-                input{
-                    margin-left: 58%;
-                }
-            }
+        button{
+            font-size: 300%;
+            margin-top: 3%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
             .buttonUp{
-                margin-top: 1%;
+                margin-top: 15%;
                 color: transparent;
                 border: 0px solid black;
                 border-radius: 0px;
