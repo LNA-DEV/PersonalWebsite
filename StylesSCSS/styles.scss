@@ -123,6 +123,8 @@ input{
     }
 }
 
+
+@media only screen and (max-width: 1220px) {
 .smallButtonMiddleUp{
     background-color: transparent;
     border-color: transparent;
@@ -132,6 +134,45 @@ input{
     margin-top: 60%;
     img{
         width: 5%;
+    }
+}
+
+.galleryHeader{
+    margin-top: 5%;
+    position: relative;
+    font-size: 800%;
+}
+
+.gallery {
+        display: grid;
+        grid-template-columns: auto ;
+        top: 5%;
+        position: relative;
+        width: 100%;
+            .galleryItem{
+                border-radius: 8%;
+                width: 90%;
+                margin-top: 0%;
+                margin-bottom: 0%;
+                margin-left: 5%;
+                margin-right: 5%;
+
+                    .galleryItemH{
+                        color: black;
+                        font-size: 350%;
+                        margin-bottom: 0%;
+                        margin-top: 2%;
+                        font-family: MS UI Gothic;
+                    }
+
+                    .galleryItemP{
+                        font-size: 250%;
+                        color: gray;
+                        text-align: center;
+                        margin-bottom: 20%;
+                        font-family: MS UI Gothic;
+                    }
+            }
     }
 }
 
@@ -148,45 +189,18 @@ input{
             width: 5%;
         }
     }
-}
 
-.galleryHeader{
-    top: 5%;
-    position: relative;    
-}
-
-@media only screen and (min-width: 1220px) {
     .galleryHeader{
         margin-top: 5%;
         position: relative;
+        font-size: 200%;
     }
-}
 
-.gallery{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    top: 20%;
-    position: relative;
-
-        .galleryItem{
-            border-radius: 8%;
-            text-align: center;
-            color: gray;
-
-                .galleryItemH{
-                    color: black;
-                    font-size: 170%;
-                }
-        }
-}
-
-@media only screen and (max-width: 1220px) {
-    .gallery {
+    .gallery{
         display: grid;
-        grid-template-columns: auto ;
-        top: 200px;
+        grid-template-columns: auto auto auto;
+        top: 20%;
         position: relative;
-        width: 100%;
     
             .galleryItem{
                 border-radius: 8%;
@@ -199,7 +213,9 @@ input{
                     }
             }
     }
-  }
+}
+
+
 
   .smallButtonMiddleDown{
     background-color: transparent;
