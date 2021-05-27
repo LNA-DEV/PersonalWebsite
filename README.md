@@ -4,4 +4,4 @@ It's just a simple HTML, CSS and JavaScript page to showcase my projects <br>
 I hope you like it :) <br>
 By the way: I am not a web developer so be kind^^
 
-Link to the Web-Page: [LNA-DEV.COM](LNA-DEV.COM) or [LNA-DEV.DE](LNA-DEV.COM)
+Link to the Web-Page: [LNA-DEV.COM](https://LNA-DEV.COM) or [LNA-DEV.DE](https://LNA-DEV.COM)
