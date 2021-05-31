@@ -13,4 +13,7 @@ function ScrollToBottom()
     window.scrollTo({top: 999999 , behavior: 'smooth'});
 }
 
-
+function OpenLegalDetails()
+{
+    window.location.href = "HTML/LegalDetails.html";
+}

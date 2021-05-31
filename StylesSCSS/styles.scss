@@ -150,12 +150,16 @@ input{
         position: relative;
         width: 100%;
             .galleryItem{
-                border-radius: 8%;
                 width: 90%;
                 margin-top: 0%;
                 margin-bottom: 0%;
                 margin-left: 5%;
                 margin-right: 5%;
+
+                .galleryItemI{
+                    width: 500px;
+                    border-radius: 8%;
+                }
 
                     .galleryItemH{
                         color: black;
@@ -176,7 +180,51 @@ input{
     }
 }
 
-@media only screen and (min-width: 1220px) {
+@media only screen and (max-width: 2080px) {
+
+    .smallButtonMiddleUp{
+        background-color: transparent;
+        border-color: transparent;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+        img{
+            width: 5%;
+        }
+    }
+
+    .galleryHeader{
+        margin-top: 5%;
+        position: relative;
+        font-size: 200%;
+    }
+
+    .gallery{
+        display: grid;
+        grid-template-columns: auto auto;
+        top: 20%;
+        position: relative;
+    
+            .galleryItem{
+                border-radius: 8%;
+                text-align: center;
+                color: gray;
+    
+                    .galleryItemH{
+                        color: black;
+                        font-size: 170%;
+                    }
+
+                    .galleryItemI{
+                        width: 500px;
+                        border-radius: 8%;
+                    }
+            }
+    }
+}
+
+@media only screen and (min-width: 2080px) {
 
     .smallButtonMiddleUp{
         background-color: transparent;
@@ -210,6 +258,11 @@ input{
                     .galleryItemH{
                         color: black;
                         font-size: 170%;
+                    }
+
+                    .galleryItemI{
+                        width: 500px;
+                        border-radius: 8%;
                     }
             }
     }
@@ -316,7 +369,7 @@ input{
             display: block;
             margin-left: auto;
             margin-right: auto;
-            margin-bottom: 13%;
+            margin-bottom: 5%;
             img{
                 width: 5%;
             }
@@ -330,6 +383,10 @@ input{
             margin-right: auto;
         }
 
+        .legal{
+            font-size: 100%;
+        }
+
             .buttonUp{
                 margin-top: 15%;
                 color: transparent;
@@ -337,7 +394,7 @@ input{
                 border-radius: 0px;
                 background-color: transparent;
                 background-image: none;
-                margin-bottom: 15%;
+                margin-bottom: 5%;
                 width: 100px;
                 display: block;
                 margin-left: auto;
